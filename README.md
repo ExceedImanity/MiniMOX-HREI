@@ -54,21 +54,21 @@ print(thoughts)
 
 ## 📊 Benchmarks & Performance Philosophy
 
-MiniMOX/HREI n'est pas conçu pour remplacer les algorithmes classiques sur les tâches de brute-force. Il est conçu pour **les guider**.
+MiniMOX/HREI is not designed to replace classical algorithms for brute-force tasks. It is designed to **guide them**.
 
-### 🔬 Test : Remplissage de grille Sudoku 100x100 (10 000 cellules)
+### 🔬 Test: 100x100 Sudoku Grid Filling (10,000 cells)
 
-🏆 LE GRAND MATCH : ALGORITHME vs HREI vs HYBRIDE (100x100)
+🏆 THE ULTIMATE MATCH: ALGORITHM vs HREI vs HYBRID (100x100)
 ----------------------------------------------------------------------
-| Approche | Capacité Traitée | Temps d'Exécution | Statut / Observation |
+| Approach | Cells Processed | Execution Time | Status / Observation |
 | :--- | :--- | :--- | :--- |
-| ⚡ **ALGORITHME** (Force Brute) | 10 000 cases | 0,001077 s | **Standard** : Rapide mais rigide. |
-| 🧠 **HREI** (Réflexion Totale) | 661 cases | 1,000000 s | **Lent** : Analyse profonde, mais volume limité. |
-| 🚀 **HYBRIDE** (Optimisé) | 10 000 cases | **0,000103 s** | **Champion** : L'intelligence au service de la vitesse. |
+| ⚡ **ALGORITHM** (Brute Force) | 10,000 cells | 0.001077 s | **Standard**: Fast but rigid. |
+| 🧠 **HREI** (Total Reasoning) | 661 cells | 1.000000 s | **Slow**: Deep analysis, but limited volume. |
+| 🚀 **HYBRID** (Optimized) | 10,000 cells | **0.000103 s** | **Champion**: Intelligence driving speed. |
 ----------------------------------------------------------------------
-📊 VERDICT FINAL :
-L'Hybride est 9723.7x plus rapide que l'IA pure.
-L'Hybride conserve le contrôle cognitif tout en égalant presque la vitesse de l'algorithme.
+📊 FINAL VERDICT:
+The Hybrid approach is 9,723.7x faster than pure AI.
+The Hybrid maintains cognitive control while significantly outperforming the standard algorithm's speed.
 
 ---
 
@@ -106,11 +106,11 @@ python main.py
 
 --- 
 
-## ⚠️ Limitations Connues
+## ⚠️ Known Limitations
 
-- **Pas pour le Deep Learning** : HREI ne remplace pas PyTorch/TensorFlow pour la vision ou le NLP.
-- **Mémoire JSON** : La persistance actuelle (`memory_episodic.json`) est adaptée aux prototypes. Pour la production, une intégration SQLite/FAISS est recommandée.
-- **Complexité O(N²)** : L'auto-connexion sémantique compare tous les atomes entre eux. Au-delà de ~5000 atomes, envisager une indexation vectorielle approximative (ANN).
+- **Not for Deep Learning**: HREI is not a replacement for PyTorch/TensorFlow for Computer Vision or NLP tasks.
+- **JSON Storage**: The current persistence layer (`memory_episodic.json`) is suited for prototyping. For production environments, SQLite/FAISS integration is recommended.
+- **$O(N^2)$ Complexity**: Semantic auto-connection compares every atom against each other. Beyond ~5,000 atoms, consider implementing Approximate Nearest Neighbor (ANN) vector indexing.
 
 ---
 
