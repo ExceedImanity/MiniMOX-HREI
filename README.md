@@ -60,9 +60,11 @@ MiniMOX/HREI n'est pas conçu pour remplacer les algorithmes classiques sur les 
 
 🏆 LE GRAND MATCH : ALGORITHME vs HREI vs HYBRIDE (100x100)
 ----------------------------------------------------------------------
-⚡ [PRO]     : 10000 cases en 0.001077s (Force brute)
-🧠 [HREI]    : 661 cases en 1.00s (Réflexion totale)
-🚀 [HYBRIDE] : 10000 cases en 0.000103s (Intelligence Optimisée)
+| Approche | Capacité Traitée | Temps d'Exécution | Statut / Observation |
+| :--- | :--- | :--- | :--- |
+| ⚡ **ALGORITHME** (Force Brute) | 10 000 cases | 0,001077 s | **Standard** : Rapide mais rigide. |
+| 🧠 **HREI** (Réflexion Totale) | 661 cases | 1,000000 s | **Lent** : Analyse profonde, mais volume limité. |
+| 🚀 **HYBRIDE** (Optimisé) | 10 000 cases | **0,000103 s** | **Champion** : L'intelligence au service de la vitesse. |
 ----------------------------------------------------------------------
 📊 VERDICT FINAL :
 L'Hybride est 9723.7x plus rapide que l'IA pure.
